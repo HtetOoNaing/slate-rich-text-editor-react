@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelected, useFocused } from "slate-react";
+import "./Image.css";
 
 const Image = ({ attributes, element, children }) => {
   const { url, width, height } = element;

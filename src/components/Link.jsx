@@ -2,6 +2,7 @@ import React from "react";
 import { useFocused, useSelected, useSlateStatic } from "slate-react";
 import unlink from "../images/unlink.svg";
 import { removeLink } from "../utils";
+import "./Link.css";
 
 const Link = ({ attributes, element, children }) => {
   const editor = useSlateStatic();
