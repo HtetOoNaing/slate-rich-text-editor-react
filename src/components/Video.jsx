@@ -1,3 +1,5 @@
+import "./Video.css";
+
 const Video = ({ attributes, element, children }) => {
   const { url, width, height } = element;
   return (
