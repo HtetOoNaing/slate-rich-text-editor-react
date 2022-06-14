@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Transforms } from "slate";
 import { Icon } from ".";
 import { TableUtil, usePopup } from "../utils";
+import "./Table.css";
 
 const Table = ({ editor }) => {
   const tableOptionsRef = useRef();
