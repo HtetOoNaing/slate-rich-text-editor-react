@@ -3,6 +3,7 @@ import { MdFormatColorText, MdFormatColorFill, MdCheck } from "react-icons/md";
 import { Transforms } from "slate";
 import { ReactEditor } from "slate-react";
 import { addMarkData, activeMark, colors, usePopup } from "../utils";
+import "./ColorPicker.css";
 
 const logo = {
   color: <MdFormatColorText size={20} />,
