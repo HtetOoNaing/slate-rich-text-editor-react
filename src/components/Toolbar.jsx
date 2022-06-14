@@ -19,6 +19,7 @@ import {
   Table,
   InTable,
 } from ".";
+import "./Toolbar.css";
 
 const Toolbar = () => {
   const editor = useSlate();
