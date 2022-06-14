@@ -1,3 +1,7 @@
+.container {
+  width: 60%;
+  margin: 2% auto;
+}
 blockquote {
   border-left: 2px solid #ddd;
   margin-left: 0;

@@ -142,23 +142,25 @@ const SlateEditor = () => {
   }, []);
 
   return (
-    <Slate
-      editor={editor}
-      value={value}
-      onChange={(newValue) => setValue(newValue)}
-    >
-      <Toolbar />
-      <div
-        className="editor-wrapper"
-        style={{ border: "1px solid #f3f3f3", padding: "0 10px" }}
+    <div className="container">
+      <Slate
+        editor={editor}
+        value={value}
+        onChange={(newValue) => setValue(newValue)}
       >
-        <Editable
-          placeholder="Write something"
-          renderElement={renderElement}
-          renderLeaf={renderLeaf}
-        />
-      </div>
-    </Slate>
+        <Toolbar />
+        <div
+          className="editor-wrapper"
+          style={{ border: "1px solid #f3f3f3", padding: "0 10px" }}
+        >
+          <Editable
+            placeholder="Write something"
+            renderElement={renderElement}
+            renderLeaf={renderLeaf}
+          />
+        </div>
+      </Slate>
+    </div>
   );
 };
 
