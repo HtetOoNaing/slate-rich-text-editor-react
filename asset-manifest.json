@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/slate-rich-text-editor-react/static/css/main.616dfd87.css",
+    "main.js": "/slate-rich-text-editor-react/static/js/main.a08a2387.js",
+    "static/js/787.2376ab32.chunk.js": "/slate-rich-text-editor-react/static/js/787.2376ab32.chunk.js",
+    "static/media/unlink.svg": "/slate-rich-text-editor-react/static/media/unlink.b8761030d4a17499149d2d61adc064b3.svg",
+    "index.html": "/slate-rich-text-editor-react/index.html",
+    "main.616dfd87.css.map": "/slate-rich-text-editor-react/static/css/main.616dfd87.css.map",
+    "main.a08a2387.js.map": "/slate-rich-text-editor-react/static/js/main.a08a2387.js.map",
+    "787.2376ab32.chunk.js.map": "/slate-rich-text-editor-react/static/js/787.2376ab32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.616dfd87.css",
+    "static/js/main.a08a2387.js"
+  ]
+}
