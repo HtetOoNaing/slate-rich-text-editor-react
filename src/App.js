@@ -1,8 +1,7 @@
-import RichText from "./RichText";
+import SlateEditor from "./SlateEditor";
 
 function App() {
-  return <RichText />;
+  return <SlateEditor />;
 }
 
 export default App;
-

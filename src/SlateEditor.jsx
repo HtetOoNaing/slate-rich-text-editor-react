@@ -5,7 +5,7 @@ import { Slate, Editable, withReact } from "slate-react";
 import { Link, Toolbar, Image, Video } from "./components";
 import { sizeMap, fontFamilyMap } from "./utils";
 import { withEmbeds, withLinks, withTables } from "./plugins";
-import "./RichText.css";
+import "./SlateEditor.css";
 
 const Element = (props) => {
   const { attributes, children, element } = props;
